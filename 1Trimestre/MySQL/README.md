@@ -26,19 +26,27 @@ Vemos que podemos entrar, por lo que está instalado.
 
 ## 2.-Instalar MySQL Cliente desde el gestor de paquetes.
 
+![](./img/img9.PNG)
+
 ## 3.- Indicar que versión estable instala desde el repositorio.
 
 ![](./img/img6.PNG)
 
 ## 4.- Reiniciar el demonio mysqld, que arranca el núcleo de SGBD. Probar que este corriendo el proceso con: ps aux | grep mysql.
 
-
+![](./img/img7.PNG)
 
 ## 5.- Configuración de la seguridad post-instalación (ejecutar mysql_secure_installation)
 
-## 6.- Probar la conexión al servidor,  utilizando el programa cliente mysql y con el usuario root
+![](./img/img8.PNG)
+
+## 6.- Probar la conexión al servidor, utilizando el programa cliente mysql y con el usuario root
+
+![](./img/img10.PNG)
 
 ## 7.- Instalar MYSQL Workbench
+
+![](./img/img11.PNG)
 
 ## 8.- Instalar el PHPMYAdmin sobre Apache
 
