@@ -53,8 +53,24 @@ Vemos que podemos entrar, por lo que está instalado.
 ## 9.- Además explicar lo siguiente, en base a la distribución linux instalada:
 
 * Directorio de instalación base
+
+Usando el comando **ps aux | grep mysql** podemos observar que el directorio es **/var/lib/mysql**
+
+
 * Directorio del servicio o proceso demonio
+
+**/etc/init.d/mysql**
+
 * Directorio de datos. Explicar lo que se encuentra en dicho directorio respecto a las bases de datos del servidor.
-* Fichero de configuración del servidor y su ubicación
+
+**/var/lib/mysql**. En este directorio se almacenan todas las configuraciones de nuestro programa.
+
+* Fichero de configuración del servidor y su ubicación.
+
+**/etc/mysql/my.cnf**
+
 * ¿Quién es el usuario propietario de la instalación ?
+
+**mysql**
+
 * Aplicar el lenguaje de los mensajes de error  a español, modificando la configuración (indicar el directorio donde se aloja el fichero en español)
