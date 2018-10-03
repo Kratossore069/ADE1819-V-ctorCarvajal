@@ -50,11 +50,37 @@ Vemos que podemos entrar, por lo que está instalado.
 
 ## 8.- Instalar el PHPMYAdmin sobre Apache
 
+Para ello primero debemos actualizar con **apt-get update**
+
+![](./img/img18.PNG)
+
+Luego instalamos el Apache.
+
+![](./img/19.PNG)
+
+Para saber que se ha instalado correctamente, accedemos a nuestro navegador y ponemos **localhost**
+
+![](./img/img20.PNG)
+
+Hecho todo esto, ya podemos instalar el phpmyadmin.
+
+![](./img/img13.PNG)
+
+![](./img/img14.PNG)
+
+> Le damos que no porque vamos a configurarlo nosotros mismos.
+
+![](./img/img21.PNG)
+
+> Vemos que funciona.
+
 ## 9.- Además explicar lo siguiente, en base a la distribución linux instalada:
 
 * Directorio de instalación base
 
-Usando el comando **ps aux | grep mysql** podemos observar que el directorio es **/var/lib/mysql**
+![](./img/img15.PNG)
+
+> Usando el comando **ps aux | grep mysql** podemos observar que el directorio es **/usr/sbin/mysqld**
 
 
 * Directorio del servicio o proceso demonio
@@ -63,9 +89,13 @@ Usando el comando **ps aux | grep mysql** podemos observar que el directorio es 
 
 * Directorio de datos. Explicar lo que se encuentra en dicho directorio respecto a las bases de datos del servidor.
 
+![](./img/img16.PNG)
+
 **/var/lib/mysql**. En este directorio se almacenan todas las configuraciones de nuestro programa.
 
 * Fichero de configuración del servidor y su ubicación.
+
+![](./img/img17.PNG)
 
 **/etc/mysql/my.cnf**
 
@@ -73,4 +103,6 @@ Usando el comando **ps aux | grep mysql** podemos observar que el directorio es 
 
 **mysql**
 
-* Aplicar el lenguaje de los mensajes de error  a español, modificando la configuración (indicar el directorio donde se aloja el fichero en español)
+* Aplicar el lenguaje de los mensajes de error  a español, modificando la configuración (indicar el directorio donde se aloja el fichero en español).
+
+![](./img/img22.PNG)
