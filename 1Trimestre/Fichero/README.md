@@ -6,7 +6,7 @@
 
 * **Encuentra el fichero my.ini(en el caso que tu servidor MYSQL estuviera sobre Windows) o my.cnf de tu instalación de MySQL (podría no estar en una ubicación no estándar).**
 
-![](./img/img1.png)
+![](./img/img1.PNG)
 
 * **¿Cómo se escribe un comentario en este fichero?¿Y un grupo de opciones?¿Todas las opciones tienen un valor?**
 
@@ -14,9 +14,9 @@
 
 * **Ejecuta "mysqld --verbose --help" desde una consola para ver una lista de las variables del servidor. Para ver mejor el texto mejor redirecciona la salida a fichero.**
 
-![](./img/img2.png)
+![](./img/img2.PNG)
 
-![](./img/img3.png)
+![](./img/img3.PNG)
 
 * **Explica qué significan y que se consigue con cada una de las variables del siguiente fichero de configuración.**
 
@@ -39,28 +39,28 @@
 
 * **Usa el comando "SHOW VARIABLES" para conocer el valor de todas las variables y enviar el resultado a un fichero (podemos hacerlo desde consola linux y desde el mysql client usando la orden tee.**
 
-![](./img/img4.png)
+![](./img/img4.PNG)
 
 * **Repite lo anterior para mostrar solo las variables relacionadas con el motor "InnoDB".**
 
-![](./img/img5.png)
+![](./img/img5.PNG)
 
 * **Para gestionar variables tenemos, como hemos visto, el comando SHOW "comando":**
 * cómo mostrar todos los motores de almacenamiento
 
-![](./img/img6.png)
+![](./img/img6.PNG)
 
 * cómo mostrar el estado actual del servidor
 
-![](./img/img7.png)
+![](./img/img7.PNG)
 
 * cómo averiguar todos los clientes que están conectados al servidor
 
-![](./img/img8.png)
+![](./img/img8.PNG)
 
 * cómo conocer todas las tablas que están abiertas
 
-![](./img/img9.png)
+![](./img/img9.PNG)
 
 ## Variables de estado.
 
@@ -70,27 +70,27 @@
 
 * **Usa el comando "SHOW STATUS" para conocer el valor de todas las variables..**
 
-![](./img/img10.png)
+![](./img/img10.PNG)
 
 * **Haz que uno o más de tus compañeros se conecte a tu servidor (puede que por cuestión de permisos no os podáis conectar).**
 
-![](./img/img11.png)
+![](./img/img11.PNG)
 
 * **Comprueba quién está conectado usando el comando correspondiente (Pista: es un comando visto SHOW XYZ).**
 
-![](./img/img12.png)
+![](./img/img12.PNG)
 
 * **Intenta desconectarlo con el comando "kill"**.
 
-![](./img/img13.png)
+![](./img/img13.PNG)
 
 * **¿Cuántas consultas se están ejecutado hasta el momento en tu servidor MYSQL? ¿Y si se trata de consultas lentas?**
 
-![](./img/img14.png)
+![](./img/img14.PNG)
 
 * **Un estado informa  el sobre el máximo de conexiones concurrentes que se ha dado en la sesión de trabajo. ¿Cuál es?**
 
-![](./img/img15.png)
+![](./img/img15.PNG)
 
 ## Variables dinámicas.
 
@@ -126,7 +126,7 @@ Max Value: 65535
 
 * **Indica su valor en tu servidor**
 
-![](./img/img16.png)
+![](./img/img16.PNG)
 
 * **¿Es posible modificar su valor con comando SET?**
 
@@ -134,7 +134,7 @@ Max Value: 65535
 
 * **Localiza la variable que establece el límite de conexiones concurrentes. ¿Cuál es?**
 
-![](./img/img17.png)
+![](./img/img17.PNG)
 
 * **Conéctate con tres instancias de la herramienta cliente mysql utilizando un usuario creado previamente (podéis crear el usuario desde WorkBench, es más sencillo).**
 
