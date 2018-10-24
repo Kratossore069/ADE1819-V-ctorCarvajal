@@ -4,11 +4,15 @@
 
 * Haz la lectura de la siguiente página "Using Option Files" http://dev.mysql.com/doc/refman/5.7/en/option-files.html
 
-* Encuentra el fichero my.ini(en el caso que tu servidor MYSQL estuviera sobre Windows) o my.cnf de tu instalación de MySQL (podría no estar en una ubicación no estándar).
+* **Encuentra el fichero my.ini(en el caso que tu servidor MYSQL estuviera sobre Windows) o my.cnf de tu instalación de MySQL (podría no estar en una ubicación no estándar).**
 
-* ¿Cómo se escribe un comentario en este fichero?¿Y un grupo de opciones?¿Todas las opciones tienen un valor?
+![](./img/img1.png)
 
-* Ejecuta "mysqld --verbose --help" desde una consola para ver una lista de las variables del servidor. Para ver mejor el texto mejor redirecciona la salida a fichero.
+* **¿Cómo se escribe un comentario en este fichero?¿Y un grupo de opciones?¿Todas las opciones tienen un valor?**
+
+*Los comentarios se escriben: = [a partir de aquí se escribe y] # para finalizar el comentario. Un grupo de opciones se escriben de la siguiente manera: Grupo = [Caracteres]. No todas las opciones tienen un valor.*
+
+* **Ejecuta "mysqld --verbose --help" desde una consola para ver una lista de las variables del servidor. Para ver mejor el texto mejor redirecciona la salida a fichero.**
 
 * Explica qué significan y que se consigue con cada una de las variables del siguiente fichero de configuración.
 
@@ -39,11 +43,11 @@ cómo conocer todas las tablas que están abiertas
 * ¿Qué hace la variable "uptime"?
 Indica su valor en tu servidor
 ¿Es posible modificar su valor con comando SET?
-* Localiza la variable que establece el límite de conexiones concurrentes. ¿Cuál es? 
+* Localiza la variable que establece el límite de conexiones concurrentes. ¿Cuál es?
 
-Conéctate con tres instancias de la herramienta cliente mysql utilizando un usuario creado previamente (podéis crear el usuario desde WorkBench, es más sencillo).
-Comprueba el valor de la variable de estado que indica cuantas conexiones simultáneas fueron establecidas al servidor Mysql (para ello busca la cadena 'connection' en las variables de estado.
-Modifica la variable del sistema que limita el número de conexiones simultáneas a 3 (busca que variable es de la misma forma que en el paso anterior).
+* Conéctate con tres instancias de la herramienta cliente mysql utilizando un usuario creado previamente (podéis crear el usuario desde WorkBench, es más sencillo).
+* Comprueba el valor de la variable de estado que indica cuantas conexiones simultáneas fueron establecidas al servidor Mysql (para ello busca la cadena 'connection' en las variables de estado.
+* Modifica la variable del sistema que limita el número de conexiones simultáneas a 3 (busca que variable es de la misma forma que en el paso anterior).
 Piensa: Con que usuario tendrás que ejecutar la orden SQL.
-Intenta conectarte con una nueva instancia de Mysql utilizando el usuario creado previamente.
-Deja la variable del sistema a su valor por defecto. (se iguala con la palabra DEFAULT)
+* Intenta conectarte con una nueva instancia de Mysql utilizando el usuario creado previamente.
+* Deja la variable del sistema a su valor por defecto. (se iguala con la palabra DEFAULT)
