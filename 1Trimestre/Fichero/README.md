@@ -138,13 +138,21 @@ Max Value: 65535
 
 * **Conéctate con tres instancias de la herramienta cliente mysql utilizando un usuario creado previamente (podéis crear el usuario desde WorkBench, es más sencillo).**
 
+![](./img/img18.PNG)
+
+![](./img/img19.PNG)
 
 * **Comprueba el valor de la variable de estado que indica cuantas conexiones simultáneas fueron establecidas al servidor Mysql (para ello busca la cadena 'connection' en las variables de estado.**
 
+![](./img/img20.PNG)
 
 * **Modifica la variable del sistema que limita el número de conexiones simultáneas a 3 (busca que variable es de la misma forma que en el paso anterior).
 Piensa: Con que usuario tendrás que ejecutar la orden SQL.**
 
+![](./img/img21.PNG)
+
 * **Intenta conectarte con una nueva instancia de Mysql utilizando el usuario creado previamente.**
+
+![](./img/img22.PNG)
 
 * **Deja la variable del sistema a su valor por defecto. (se iguala con la palabra DEFAULT)**
