@@ -156,3 +156,5 @@ Piensa: Con que usuario tendrás que ejecutar la orden SQL.**
 ![](./img/img22.PNG)
 
 * **Deja la variable del sistema a su valor por defecto. (se iguala con la palabra DEFAULT)**
+
+![](./img/img23.PNG)
