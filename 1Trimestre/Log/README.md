@@ -52,5 +52,19 @@ El fichero "Global Query  Log" registra las conexiones establecidas por los clie
 
 > Volvemos a /etc/mysql/my.cnf e insertamos esas nuevas líneas.
 
+![](./img/img8.PNG)
+
+Ahora comprobamos.
+
+![](./img/img9.PNG)
+
 * 3. Averigua viendo el fichero "miserver.log" la hora en que se conectó tu compañero y ejecutó las consultas del apartado anterior.
+
+![](./img/img10.PNG)
+
 * 4. Accede al servidor a través de Workbench. ¿Qué se registra en "general_log"?¿Hay alguna diferencia respecto al cliente mysql ?
+
+![](./img/img11.PNG)
+
+*Registra listados de base de datos, registra también variables, fallos y conexiones.
+La diferencia entre cliente mysql y el de Workbench, es que Workbench carga una serie de consultas y permite modificar parámetros y mysql sólo establece una conexión simple.*
