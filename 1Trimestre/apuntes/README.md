@@ -29,3 +29,17 @@ Modifica el host desde donde pueda acceder el alumno a una dirección IP determi
 ![](./img/8.PNG)
 
 ![](./img/9.PNG)
+
+![](./img/10.PNG)
+
+![](./img/11.PNG)
+
+create view "NOMBRE" as "CONSULTA";
+
+![](./img/12.PNG)
+
+![](./img/13.PNG)
+
+update "TABLA" set "LQUESEA"where "LOQUESEA";
+
+![](./img/14.PNG)
